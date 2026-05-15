@@ -1,0 +1,19 @@
+int fanPin = 4;
+
+void setup() {
+
+  pinMode(fanPin, OUTPUT);
+}
+
+void loop() {
+
+  // Turn Fan ON
+  digitalWrite(fanPin, HIGH);
+
+  delay(5000);
+
+  // Turn Fan OFF
+  digitalWrite(fanPin, LOW);
+
+  delay(3000);
+}
